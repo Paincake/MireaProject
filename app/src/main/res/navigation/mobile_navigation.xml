@@ -23,7 +23,7 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/dataFragment"
+        android:id="@+id/nav_data"
         android:name="ru.mirea.ryazhevilya.mireaproject.DataFragment"
         android:label="fragment_data"
         tools:layout="@layout/fragment_data" />
@@ -32,4 +32,35 @@
         android:name="ru.mirea.ryazhevilya.mireaproject.WebBrowserFragment"
         android:label="fragment_web_browser"
         tools:layout="@layout/fragment_web_browser" />
+    <fragment
+        android:id="@+id/workerFragment"
+        android:name="ru.mirea.ryazhevilya.mireaproject.ui.worker.WorkerFragment"
+        android:label="fragment_worker"
+        tools:layout="@layout/fragment_worker" />
+    <fragment
+        android:id="@+id/nav_preferences"
+        android:name="ru.mirea.ryazhevilya.mireaproject.PreferencesFragment"
+        android:label="fragment_preferences"
+        tools:layout="@layout/fragment_preferences" />
+    <fragment
+        android:id="@+id/nav_files"
+        android:name="ru.mirea.ryazhevilya.mireaproject.FilesFragment"
+        android:label="fragment_files"
+        tools:layout="@layout/fragment_files" />
+    <fragment
+        android:id="@+id/nav_accelerometer"
+        android:name="ru.mirea.ryazhevilya.mireaproject.AccelerometerFragment"
+        android:label="fragment_step_counter"
+        tools:layout="@layout/fragment_accelerometer" />
+    <fragment
+        android:id="@+id/nav_mic"
+        android:name="ru.mirea.ryazhevilya.mireaproject.MicFragment"
+        android:label="fragment_mic"
+        tools:layout="@layout/fragment_mic" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.ryazhevilya.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+
 </navigation>
